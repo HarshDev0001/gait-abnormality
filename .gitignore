@@ -1,0 +1,44 @@
+# Virtual environment
+.venv/
+
+# Data directory
+data/
+
+# External repositories
+external/
+
+
+# Python cache and build artifacts
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Video files
+*.mp4
+*.avi
+*.mov
+*.mkv
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Local dataset preparation / temporary files
+colab_dataset/
+scratch/
+
+# Dataset archive
+gait_dataset_319.zip
+
+# Old experiment results
+results/best_model.pt
+results/classical_results.csv
+results/failed_downloads.txt
+results/learning_curve.png
+
+# Old training implementations
+src/train_classical.py
+src/train_deep.py
